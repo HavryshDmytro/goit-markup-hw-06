@@ -19,6 +19,7 @@
   </head>
 
   <body>
+    <!-- Хедер -->
     <header class="header">
       <div class="container header-container">
         <nav class="header-wrapper">
@@ -52,15 +53,15 @@
     </header>
 
     <main>
-      <!-- hero -->
+      <!-- Секция Герой -->
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button data-modal-open type="button" class="button">Заказать услугу</button>
         </div>
       </section>
-      <!-- about as -->
 
+      <!-- Секция Про нас -->
       <section class="section features-section">
         <div class="container">
           <h2 class="visually-hidden">Почему выбирают нас</h2>
@@ -115,6 +116,7 @@
         </div>
       </section>
 
+      <!-- Секция Чем мы занимаемся -->
       <section class="section">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
@@ -150,6 +152,7 @@
         </div>
       </section>
 
+      <!-- Секция команда -->
       <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
@@ -315,6 +318,7 @@
         </div>
       </section>
 
+      <!-- Секция клиенты  -->
       <section class="section">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
@@ -360,6 +364,7 @@
       </section>
     </main>
 
+    <!-- Футер -->
     <footer class="footer">
       <div class="container footer-container">
         <div class="contact">
@@ -431,6 +436,7 @@
       </div>
     </footer>
 
+    <!-- Модальное окно -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close class="close">
@@ -440,30 +446,28 @@
         </button>
         <p>Оставьте свои данные, мы вам перезвоним</p>
         <form class="modal-form">
-          <label for="name" class="modal-lable"><span class="form-name">Имя</span></label>
+          <label for="name" class="modal-lable">Имя</label>
           <div class="for-icon">
             <input class="form-input" type="text" name="username" id="name" autofocus />
             <svg width="18" height="18" class="form-svg">
               <use href="./images/symbol-defs.svg#person-black"></use>
             </svg>
           </div>
-          <label for="tell" class="modal-lable"><span class="form-name">Телефон</span></label>
+          <label for="tell" class="modal-lable">Телефон</label>
           <div class="for-icon">
             <input class="form-input" type="tel" name="phone_number" id="tell" />
             <svg width="18" height="18" class="form-svg">
               <use href="./images/symbol-defs.svg#phone-black"></use>
             </svg>
           </div>
-          <label for="mail" class="modal-lable"><span class="form-name">Почта</span></label>
+          <label for="mail" class="modal-lable">Почта</label>
           <div class="for-icon">
             <input class="form-input" type="email" name="email" id="mail" />
             <svg width="18" height="18" class="form-svg">
               <use href="./images/symbol-defs.svg#email-black"></use>
             </svg>
           </div>
-          <label for="comment" class="modal-lable"
-            ><span class="form-name">Комментарий</span></label
-          >
+          <label for="comment" class="modal-lable">Комментарий</label>
           <textarea
             class="comment-input"
             name="comment"
